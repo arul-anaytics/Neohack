@@ -39,7 +39,7 @@ const LoginPage = () => {
   return (
     <div className="t-min-h-screen t-flex t-items-center t-justify-center t-bg-gray-200">
       <div className="t-bg-white t-p-8 t-shadow-lg t-min-w-[450px] t-rounded-md">
-        <h2 className="t-text-2xl t-font-bold t-mb-4 t-text-primary t-text-center">Login</h2>
+        <h2 className="t-text-2xl t-font-bold t-mb-4 t-text-primary t-text-center">User Log In</h2>
         <Form onFinish={handleLogin} initialValues={initialValues}>
           <Form.Item name="email" rules={[{ required: true, type: 'email', message: 'Please enter a valid email' }]}>
             <div className="t-flex t-border t-rounded t-p-2 t-mb-4">
