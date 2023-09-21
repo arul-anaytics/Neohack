@@ -1,0 +1,1 @@
+Clone the repo move to respective folders make changes commit and push

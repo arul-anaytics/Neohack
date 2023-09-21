@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SkgApplication<skg>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.iamneo.skg.SkgApplication",
+            "projectName": "skg",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
